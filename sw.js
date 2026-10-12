@@ -1,7 +1,7 @@
 /* Release procedure: bump VERSION and index.html app-release together.
    All six assets must be available before a new worker can activate. */
 'use strict';
-const VERSION='2026-10-12.2';
+const VERSION='2026-10-12.3';
 const PREFIX='macau-rewards-offline-';
 const CACHE=PREFIX+VERSION;
 const ROOT=new URL('./',self.location.href);
